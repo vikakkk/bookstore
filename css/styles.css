@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.catalog-title {
+    text-align: center; /* Центрирование текста */
+    margin: 20px 0; /* Отступ сверху и снизу */
+    font-size: 1.5em; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}
+
+.book-list {
+    display: flex; /* Измените grid на flex */
+    flex-direction: column; /* Элементы будут расположены вертикально */
+    gap: 20px; /* Отступ между книгами */
+}
+
+.book {
+    display: flex;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+    max-width: 190px; /* Установите ширину изображения */
+    height: auto; /* Высота автоматически, чтобы сохранить пропорции */
+    margin-right: 15px; /* Отступ между изображением и текстом */
+}
+
+.book-info {
+    flex: 1; /* Занимает оставшееся пространство */
+}
+
+.buy-button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background: #0056b3;
+}
+
+.review {
+    font-size: 0.9em; /* Меньший шрифт для отзывов */
+    color: #666; /* Серый цвет для отзывов */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
